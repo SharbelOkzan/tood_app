@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shortpoint/features/todo/presentation/pages/todo_list.dart';
 
 void main() {
@@ -10,6 +11,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: TodosListPage());
+    return const ProviderScope(child: MaterialApp(home: TodosListPage()));
   }
 }
