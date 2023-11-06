@@ -1,3 +1,3 @@
-# shortpoint
+Flutter version 3.13.4 was used.
 
-A new Flutter project.
+Note to self: check on this pr (faced the issue while doing this test) https://github.com/flutter/flutter/pull/137919
